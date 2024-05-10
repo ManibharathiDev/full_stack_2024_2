@@ -1,0 +1,26 @@
+.left{
+    background-color: red;
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+
+.right{
+    background-color: green;
+    width: 50%;
+    float: left;
+    height: 100px;
+}
+
+.heading{
+    color: #FFFFFF;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.content{
+    color: #FFF;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
