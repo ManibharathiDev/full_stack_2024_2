@@ -1,0 +1,73 @@
+body
+{
+    margin:0;
+}
+
+#firstTop{
+    background-color: #0C9786;
+    height: auto;
+    overflow: auto;
+}
+
+.firstLeft{
+    width: 60%;
+    float: left;
+    
+    
+}
+
+.firstRight{
+    width: 40%;
+    float: right;
+    
+    
+}
+
+.textwhite{
+    color: white;
+}
+
+.container{
+    margin:0 auto;
+    width:85%;
+}
+
+#secondTop{
+    background-color: #3D3D3D;
+    height: auto;
+    overflow: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.secondLeft{
+    width:25%;
+    float: left;
+}
+
+.secondRight{
+    width: 75%;
+    float: right;
+}
+
+.mainMenu{
+    list-style-type: none;
+    text-align: right;
+    margin:0;
+    line-height: 80px;
+}
+
+.mainMenu li{
+    display: inline;
+    padding: 10px;
+}
+
+.mainMenu li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#banner img{
+    width: 100%;
+}
