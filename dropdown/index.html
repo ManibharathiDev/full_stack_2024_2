@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+
+        body{
+            margin: 0;
+        }
+
+        .menu{
+            background-color: red;
+        }
+
+        .menu ul{
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            text-align: center;
+            /* height: 40px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .menu ul li{
+            display: inline-block;
+            /* padding: 10px; */
+            height: 40px;
+            margin-left: 10px;
+            margin-right: 10px;
+            line-height: 40px;
+           
+        }
+
+        .menu ul li a{
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+            display: block;
+            height: 40px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .menu ul li a:hover{
+            /*background-color: #ffffff;
+            color: red;*/
+
+            border: 2px solid #ffffff;
+            border-top-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        .dropdownMenu:hover>.dropMenu{
+            display: block;
+            /* visibility: visible; */
+            /* opacity: 0.2; */
+        }
+
+        .dropMenu{
+            display: none;
+            background-color: blue;
+            position: absolute;
+            
+            /* visibility: hidden; */
+            /* opacity: 0; */
+        }
+
+        .dropMenu li{
+            display: block !important;
+            text-align: left;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li class="dropdownMenu"><a href="#">Services</a>
+                <ul class="dropMenu">
+                    <li><a href="#">Website Development</a></li>
+                    <li><a href="#">Website Training</a></li>
+                    <li><a href="#">SEO</a></li>
+                </ul>
+            </li>
+            <li class="dropdownMenu"><a href="#">Our Branches</a>
+                <ul class="dropMenu">
+                    <li><a href="#">Ram Nager</a></li>
+                    <li><a href="#">Saravanampatti</a></li>
+                    <li><a href="#">Avinachi Road</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+    </div>
+</body>
+</html>
